@@ -1,0 +1,13 @@
+Room Escape Game Manual
+
+
+The player has a max weight of 20 pounds to carry. Each item in the game has a weight value assigned to it.
+
+Using the enter key, allows the player to move around the current room finding items and attacking beast. Once in battle you cannot escape or leave.  
+
+Game Comamnd				Explanation:
+pickup 						Allows the player to attempt to add current item into their bag.
+help 						Displays the possible game commands.
+attack Beast with <item>	Only works when you are battling a beasts, attacking anywhere else won't work (Already hard coded to save time)
+drop <item_name> 			Allows the player to drop an item from his bag to reduce weight.
+view						Displays the player's current items in their bag
